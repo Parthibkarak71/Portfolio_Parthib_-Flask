@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block headersection %}
+
+<section class="header-container">
+  <img class="profile-image" src="{{ url_for('static', filename='assets/DP.jpg') }}" alt="" />
+
+  <div class="content-text">
+    <h2>This is how I look like &#128512;</h2>
+</section>
+{% endblock %}
+
+{% block body %}
+<section id="projects" class="project-container container">
+    <h1 class="text-secondary" align="">About Me</h1>
+    <hr />
+    <br>
+    <p> I'm a highly skilled Python web developer currently pursuing a Bachelor of Technology (BTech) degree in Computer Science and Engineering from the Institute of Engineering and Management. I completed my Higher Secondary (HS) education from Kapsit High School and my Madhyamik education from Kamarpukur Ramakrishna Mission Multipurpose School. With a passion for building efficient, scalable applications and solving complex problems, I have acquired substantial experience in machine learning, deep learning, and generative AI technologies. <br> I possess strong programming skills in C, C++, Java, Kotlin, and a deep proficiency in Python. My expertise extends to several powerful Python web frameworks such as Flask and Django, which I leverage to create robust, feature-rich web applications. <br> I am proficient in developing RESTful APIs using Python, ensuring seamless communication between the front-end and back-end components of web applications. I have experience in designing API architectures, implementing authentication and authorization mechanisms, and ensuring efficient data transfer using JSON or XML. <br> Additionally, I have extensive knowledge in deploying web applications, employing various deployment methodologies and tools to ensure reliable and efficient deployment processes. I am skilled in using containerization technologies like Docker, enabling me to package applications with their dependencies and deploy them across different environments. Furthermore, I have experience with cloud platforms such as Amazon Web Services (AWS) and Google Cloud Platform (GCP) to manage scalable infrastructure and deploy applications efficiently. <br> Database management is another area where I excel. I have worked with both relational databases, such as MySQL and PostgreSQL, and NoSQL databases like MongoDB. I am adept at designing and optimizing database schemas, writing efficient queries, and ensuring data security and integrity. <br> Throughout my academic and professional journey, I have collaborated with multidisciplinary teams, including designers, front-end developers, and project managers. I possess excellent communication skills and have consistently translated business requirements into effective technical solutions, ensuring the smooth delivery of projects. <br> Continuously staying up-to-date with the latest advancements in web development and AI, I am always eager to learn and adopt new technologies and frameworks. Additionally, I have a solid understanding of front-end technologies such as HTML, CSS, and JavaScript, which allows me to collaborate effectively with front-end developers to create intuitive user interfaces. <br> My strong foundation in machine learning, deep learning, data science, data analytics, advanced computer vision, natural language processing, and generative AI sets me apart as a versatile and innovative developer, capable of tackling diverse challenges in the tech industry. </p>
+    <br>
+    <br>
+    <hr />
+    <br>
+    <p>This Portfolio Website is also developed using Flask &#128512; </p>
+</section>
+{% endblock %}

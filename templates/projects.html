@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<!-- Projects -->
+<section id="projects" class="project-container container">
+    <div class="content-text">
+        <h2>Working Projects</h2>
+    </div>
+        {% for card in cards %}
+        <div class="card">
+            <div class="card-header">
+                <h1>{{card.name}}</h1>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{card.description}}</p>
+            </div>
+            {% if card.url %}
+            <div class="container">
+                <a href="{{card.url}}" target="_blank" class="btn btn-secondary">View Project <i class="fab fa-github"></i></a>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+</section>
+{% endblock %}

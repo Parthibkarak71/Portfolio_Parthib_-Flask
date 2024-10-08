@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "name" : "Voice Assistant",
+            "description" : "This Python-based voice assistant handles tasks like opening websites, sending emails, playing music, fetching news and weather, and interacting with OpenAI for AI responses. It uses speech_recognition for commands and pyttsx3 for responses. The project supports system controls, WhatsApp messaging, and is easily customizable for additional features.",
+            "url" : "https://github.com/Parthibkarak71/voice-assistant"
+        },
+        {
+            "name" : "Snake Game",
+            "description" : "This Python Snake game, built with pygame, challenges players to control a snake, collect food, and grow without hitting the screen boundaries. It features score tracking, a restart option, and simple controls via arrow keys. The game window is 600x400 pixels, with customizable colors and speed.",
+            "url" : "https://github.com/Parthibkarak71/SNAKE-GAME"
+        },
+        {
+            "name" : "Banking System",
+            "description" : "This C language based banking system allows users to create accounts, deposit, withdraw, and check their balance.The system also includes a simple command-line interface for user interaction.",
+            "url" : "https://github.com/Parthibkarak71/parthib"
+        },
+        {
+            "name" : "Library Management system using Python",
+            "description" : "This Python-based library management system allows users to add, remove, and lend books. It uses SQLite for database storage and Tkinter for GUI design. The system also includes a simple command-line interface for user interaction.",
+            "url" : "https://github.com/Parthibkarak71/Parthib-karak"
+        }
+    ]
+}
