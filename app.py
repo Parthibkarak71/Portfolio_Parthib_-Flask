@@ -56,4 +56,4 @@ def projects_page():
 
 @app.route('/resume')
 def resume():
-    return send_file("static/assets/parthib_cv.pdf", as_attachment=True)
+    return send_file("static/assets/fucking_idiot.png", as_attachment=True)
